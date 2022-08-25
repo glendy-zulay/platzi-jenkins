@@ -1,4 +1,4 @@
-const sum = require('../');
+const sum = require('../index');
 const assert = require('assert');
 
 describe('Sum', () =>{

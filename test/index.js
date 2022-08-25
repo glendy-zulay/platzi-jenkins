@@ -1,7 +1,7 @@
 const sum = require('../');
 const assert = require('assert');
 
-describe('Sum', ( =>{
+describe('Sum', () =>{
     it('should handle positive numbers', () => {
         assert.equal(sum(3,5),8);
     });
@@ -11,4 +11,4 @@ describe('Sum', ( =>{
     it('should handle decimals numbers', () => {
         assert.equal(sum(3.5,7.1),10.6);
     });
-}));
+});

@@ -5,7 +5,7 @@ describe('Sum', () =>{
     it('should handle positive numbers cambio para probar jenkins', () => {
         assert.equal(sum(3,5),8);
     });
-    it('should handle negative numbers', () => {
+    it('should handle negative numbers cambio en los numeros negativos', () => {
         assert.equal(sum(3,-5),-2);
     });
     it('should handle decimals numbers', () => {

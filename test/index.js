@@ -2,10 +2,10 @@ const sum = require('../index');
 const assert = require('assert');
 
 describe('Sum', () =>{
-    it('should handle positive numbers cambio para probar jenkins', () => {
+    it('should handle positive numbers', () => {
         assert.equal(sum(3,5),8);
     });
-    it('should handle negative numbers cambio en los numeros negativos', () => {
+    it('should handle negative numbers', () => {
         assert.equal(sum(3,-5),-2);
     });
     it('should handle decimals numbers', () => {
